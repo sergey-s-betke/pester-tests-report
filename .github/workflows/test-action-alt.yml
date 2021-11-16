@@ -13,7 +13,7 @@ jobs:
     steps:
 
       - name: checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2.4.0
 
       - name: generate my own test results
         shell: pwsh
